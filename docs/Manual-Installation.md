@@ -1,5 +1,8 @@
 ## Install Raspbian/Raspberry Pi OS
 
+**October 2023** - Raspberry Pi Imager has now been updated to configure SSH, wifi, locale and specific Raspberry Pi OS.  [Raspberry Pi Imager Download](https://www.raspberrypi.com/software/) 
+For this reason it is the preferable means to flash your SD card with your chosen OS prior to following the outlined Steps below.
+
 **NOTE**: The Raspberry Pi OS 'bullseye' release is not yet supported by RetroPie. Manual installation should use the previous/legacy release of Raspberry Pi OS, available [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy).
 
 This guide is a manual process to recreate the stock SD image RetroPie released on the [RetroPie Website](https://retropie.org.uk/download/) for the Raspberry Pi. If you aren't comfortable with the terminal you would be wise to just use the RetroPie SD image provided. 
@@ -11,6 +14,8 @@ RetroPie can also be installed on most debian based distros, a guide for install
 The RetroPie SD image is built on top of Raspberry Pi OS Lite (without the PIXEL desktop environment), RetroPie can also be installed on top of the full Raspberry Pi OS but you can't run Retropie and PIXEL at the same time, you will need to logout of the PIXEL desktop environment in order to run emulationstation and the emulators RetroPie installs. 
 
 You can download a fresh Raspberry Pi OS image from [here](http://www.raspberrypi.org/downloads). The image can be installed the same way as the RetroPie image as described [here](First-Installation)). 
+
+**Steps**
 
 You can check your free disk space with
 ```
